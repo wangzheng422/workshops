@@ -9,7 +9,7 @@
 Vagrant.require_version ">= 2.1.1"
 
 $script = <<SCRIPT
-git clone https://github.com/network-automation/workshops/
+git clone https://github.com/wangzheng422/workshops
 chown -R vagrant:vagrant workshops
 cp /home/vagrant/workshops/vagrant-demo/ansible.cfg /home/vagrant/.ansible.cfg
 cp /home/vagrant/workshops/vagrant-demo/etchosts /etc/hosts
