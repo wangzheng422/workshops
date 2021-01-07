@@ -14,9 +14,8 @@ chown -R vagrant:vagrant workshops
 cp /home/vagrant/workshops/vagrant-demo/ansible.cfg /home/vagrant/.ansible.cfg
 cp /home/vagrant/workshops/vagrant-demo/etchosts /etc/hosts
 yum install epel-release -y
-yum install python-pip tree -y
+yum install python-pip tree ansible -y
 pip install --upgrade pip
-pip install git+https://github.com/ansible/ansible.git@devel
 pip install netaddr
 SCRIPT
 
